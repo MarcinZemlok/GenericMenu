@@ -5,10 +5,6 @@ import logging
 import os
 import sys
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='[%(levelname)s] [%(name)s] %(message)s'
-)
 LOGGER = logging.getLogger(name=__name__)
 
 class OptionsFactory:
