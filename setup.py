@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name="generic-menu", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Marcin Zemlok",
     author_email="marcinzemlok@gmail.com",
     description="",
