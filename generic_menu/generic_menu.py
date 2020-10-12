@@ -53,7 +53,7 @@ class GenericMenu:
             self.__options_dict[self.__option].run()
         except KeyError as err:
             if(self.__option != self.__active_theme.get_termination()):
-                LOGGER.error("Wrong option specified: %s", e)
+                LOGGER.error("Wrong option specified: %s", err)
 
     def loop(self):
         while(True):
